@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Número da sorte</title>
+  <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+</head>
+
+<body>
+  <!-- -------------------------------------------Inputs e botões do jogo---------------------------------------------------- -->
+  <div class="container text column">
+    <div class="first">
+      <div class="flex">
+        <input class="input-guess inputs radius padding" placeholder="Digite seu número da sorte." type="number" min="0"
+          max="60" />
+        <button class="btn radius padding" type="button" onclick="verify()">
+          Enviar
+        </button>
+        <input class="input-regulator inputs radius padding" placeholder="Número de tentativas" type="number" min="0"
+          max="10" />
+        <button class="btn radius padding" type="button" onclick="sortNumbers()">
+          Gerar números
+        </button>
+        <button class="btn radius padding" type="button" onclick="deleteAttempts()">
+          Tentar novamente!
+        </button>
+      </div>
+  <!-- ----------------------------------Menssagem de notificação na tela do usuario---------------------------------------------------- -->
+  <div class="messages flex  text">
+    <div class="notifications-system  text radius border background-color padding top"></div>
+    <div class="compared-result radius border padding background-color position top"></div>
+    <div class="notifications-user text border radius padding background-color top"></div>
+  </div>
+  <!-- -------------------------------Explicação do jogo-------------------------------------------------------------------------------- -->
+  <div class="explanation text background-color border radius padding">
+    <p>Como jogar número da sorte?</p>
+    <div class="flex text">
+      <p>
+        Basicamente é gerado 6 números aleatórios de 0 a 60, não podendo se
+        repetir algum numero e nem ultrapassar o valor de 60, o objetivo do jogo é
+        você acertar o maximo de números sorteados, boa sorte!
+      </p>
+    </div>
+  </div>
+  <!-- -------------------------------------------------Footer--------------------------------------------------------------- -->
+  <footer class="footer text padding">
+    Desenvolvimento: Departamento de TI - Fundimisa © 2022
+    <div class="redes-sociais">
+      <a href="https://www.facebook.com/fundimisa/"><img src="./imgs/face.png" alt="Facebook" /> </a>
+      <a href="https://br.linkedin.com/company/fundimisa---fundi%C3%A7%C3%A3o-e-usinagem-ltda"><img src="./imgs/linkdin.png" alt="Facebook" /> </a>
+      <a href="https://www.fundimisa.com.br/"><img src="./imgs/fundimisa.jpeg" alt="Facebook" /> </a>
+    </div>
+  </footer>
+  <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+</div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
