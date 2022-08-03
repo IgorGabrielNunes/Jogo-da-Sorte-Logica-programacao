@@ -1,0 +1,75 @@
+body {
+  background: url(./imgs/banner.jpg);
+  font-family: 'open sans', sans-serif;
+}
+
+.btn {
+  background-color: #fff;
+  color: #000;
+  min-width: 50px;
+}
+
+.border {
+  border: 5px solid #ffffff;
+}
+
+.background-color {
+  background-color: transparent;
+}
+
+.container {
+  height: 83vh;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.explanation {
+  height: 15vh;
+  margin-top: 45vh;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 85%;
+  background-color: #333333;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.inputs {
+  color: #000;
+  font-weight: bold;
+  width: 30vh;
+}
+
+.messages {
+  justify-content: space-around;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.redes-sociais img {
+  width: 40px;
+}
+
+.radius {
+  border-radius: 1rem;
+}
+
+.text {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: dashed #000;
+}
